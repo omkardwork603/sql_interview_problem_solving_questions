@@ -1,0 +1,5 @@
+Department-wise Average Salary
+
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department;

@@ -1,0 +1,6 @@
+Department-wise Lowest Salary
+
+
+SELECT department, MIN(salary)
+FROM employees
+GROUP BY department;
