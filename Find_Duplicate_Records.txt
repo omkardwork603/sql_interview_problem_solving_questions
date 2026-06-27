@@ -1,0 +1,3 @@
+Find Duplicate Records
+
+SELECT name, COUNT(*) FROM employees
