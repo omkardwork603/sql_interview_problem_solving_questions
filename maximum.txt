@@ -1,0 +1,8 @@
+
+
+Find Highest Salary
+
+SELECT MAX(salary) FROM employees;
+
+
+
