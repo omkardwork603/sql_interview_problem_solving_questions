@@ -1,0 +1,4 @@
+Find Total Salary by Department
+
+SELECT department, SUM(salary) FROM employees
+GROUP BY department;
