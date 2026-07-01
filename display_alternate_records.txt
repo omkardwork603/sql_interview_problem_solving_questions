@@ -1,0 +1,8 @@
+Display Alternate Records
+
+
+SELECT * FROM (
+    SELECT *, ROW_NUMBER() OVER(ORDER BY id) rn
+    FROM employees
+) t
+WHERE rn % 2 = 1;
