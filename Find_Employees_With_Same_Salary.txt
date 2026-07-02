@@ -3,4 +3,3 @@ Find Employees With Same Salary
 SELECT salary, COUNT(*) FROM employees
 GROUP BY salary
 HAVING COUNT(*) > 1;
-wokd
