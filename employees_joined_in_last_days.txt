@@ -1,0 +1,4 @@
+Employees Joined in Last 30 Days
+
+SELECT * FROM employees
+WHERE join_date >= CURDATE() - INTERVAL 30 DAY;
